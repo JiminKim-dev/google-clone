@@ -44,7 +44,6 @@ input:focus {
 .header-link {
   margin-right: 10px;
   font-size: 12px;
-  vertical-align: middle;
 }
 
 .header-link:hover {
@@ -58,8 +57,20 @@ input:focus {
 }
 
 .header-apps {
-  font-size: 10px;
   margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.header-apps:hover {
+  background-color: #ededed;
+}
+
+.header-apps .material-icons {
+  margin-top: 7px;
 }
 
 .header-users .header-login {
@@ -191,8 +202,8 @@ input:focus {
   visibility: hidden;
   position: absolute;
   text-align: center;
-  top: 35px;
-  left: -25px;
+  top: 44px;
+  left: -18px;
   width: 75px;
   padding: 7px;
   border-radius: 4px;
@@ -205,8 +216,8 @@ input:focus {
   visibility: hidden;
   position: absolute;
   top: 30px;
-  left: -15px;
-  width: 50px;
+  left: -20px;
+  width: 60px;
   padding: 6px;
   border-radius: 2px;
   font-size: 10px;
@@ -219,7 +230,7 @@ input:focus {
   position: absolute;
   display: block;
   top: -12px;
-  left: 19px;
+  left: 24px;
   border-style: solid;
   border-width: 6px;
   border-color: transparent transparent #3c4043 transparent;
@@ -243,7 +254,7 @@ input:focus {
   }
 
   .header-apps {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .header-users .header-login {
